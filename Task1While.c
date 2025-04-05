@@ -2,19 +2,16 @@
 
 int main () {
 	int i = 0;
-	do {
+	while (i <= 10) {
 	  printf("%d ", i);
-	  i++;
+	  ++i;
 	}
-	while (i<=10);
 	printf("\n");
-
 	i = 10;
-	do {
+	while (i >= 0) {
 	  printf("%d ", i);
-	  i--;
+	  --i;
 	}
-	while (i>=0);
 	printf("\n");
 	return 0;
 }
